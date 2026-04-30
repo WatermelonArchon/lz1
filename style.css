@@ -1,0 +1,36 @@
+*{
+    background-color: #1D2F30;
+}
+p{
+    color: white; 
+/*Open Sans*/
+}
+h3{
+    color: white;
+}
+/*--------------------------------------Header --------------------------------------------------------*/
+header{
+    background-image: url(assets/Rectangle7.png);
+    background-repeat: no-repeat;
+        background-size: cover;
+    max-width: 1920px;
+    max-height: 60px;
+}
+header a{
+    color:white;
+    text-decoration: none;
+}
+h1{
+    max-width: 688px;
+    color: white;
+    border: black 1px;
+
+}
+
+
+/* --------------------------------------Main -------------------------------------------------------- */
+.preview{
+    background-image: url(assets/1_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
