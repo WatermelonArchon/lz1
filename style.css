@@ -1,20 +1,39 @@
 *{
-    background-color: #1D2F30;
+    background-color: rgba(29, 47, 48, 1);
 }
 p{
     color: white; 
-/*Open Sans*/
+    font-size: 16px;
+    line-height: 150%;
 }
 h3{
     color: white;
 }
+h2{
+    color: white;
+}
+
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
 /*--------------------------------------Header --------------------------------------------------------*/
 header{
-    background-image: url(assets/Rectangle7.png);
+    background-image: linear-gradient(rgba(29, 47, 48, 1), rgba(29, 47, 48, 1)), url(assets/Rectangle7.png);
+
+
+
+
+    /* background-image: url(assets/Rectangle7.png);
+    /* rgba(29, 47, 48, 1) */
+    /* background-color: rgba(29, 47, 48, 0.7); */
+    
     background-repeat: no-repeat;
         background-size: cover;
-    max-width: 1920px;
-    max-height: 60px;
+    
+    /* max-width: 1920px;
+    max-height: 60px; */
 }
 header a{
     color:white;
@@ -24,13 +43,44 @@ h1{
     max-width: 688px;
     color: white;
     border: black 1px;
+    background: none;
 
 }
 
-
 /* --------------------------------------Main -------------------------------------------------------- */
-.preview{
+.preview .container{
     background-image: url(assets/1_1.jpg);
+    
+    /* background-image: url(assets/shade.png); opacity 70% 
+    #1D2F30  */
     background-repeat: no-repeat;
     background-size: cover;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.collection-text{
+    font-family: "Open Sans", sans-serif;
+    line-height: 150%;
+    max-width: 635px;
+    background: none;
+}
+
+.explore{
+    font-weight: bold;
+    color: #BAE249;
+    background: none;
+}
+
+
+
+
+
+
+
+.project-help{
+    background-image: url(assets/1_1.jpg);
+    max-width: 1920px;
 }
