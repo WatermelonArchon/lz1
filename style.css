@@ -1,39 +1,45 @@
 *{
     background-color: rgba(29, 47, 48, 1);
+    font-family: "Cormorant", serif;
 }
 p{
+    font-family: "Open Sans", sans-serif;
+    background: none;
     color: white; 
     font-size: 16px;
     line-height: 150%;
 }
+button{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    padding:  10.25px 29.5px;
+
+}
 h3{
+    background: none;
     color: white;
+    font-size: 24px;
+    line-height: 100%;
 }
 h2{
     color: white;
+    font-size: 48px;
+    font-style: italic;
+    line-height: 100%;
 }
 
 .container{
     max-width: 1920px;
     margin: 0 auto;
 }
-
+img{
+    background: none;
+}
 /*--------------------------------------Header --------------------------------------------------------*/
 header{
-    background-image: linear-gradient(rgba(29, 47, 48, 1), rgba(29, 47, 48, 1)), url(assets/Rectangle7.png);
-
-
-
-
-    /* background-image: url(assets/Rectangle7.png);
-    /* rgba(29, 47, 48, 1) */
-    /* background-color: rgba(29, 47, 48, 0.7); */
-    
+    background-image: url(assets/Rectangle7.png);
     background-repeat: no-repeat;
-        background-size: cover;
-    
-    /* max-width: 1920px;
-    max-height: 60px; */
+    background-size: cover;
 }
 header a{
     color:white;
@@ -44,15 +50,18 @@ h1{
     color: white;
     border: black 1px;
     background: none;
+    font-size: 60px;
 
 }
 
 /* --------------------------------------Main -------------------------------------------------------- */
+.number{
+    font-family: "Cormorant", serif;
+    color: #899D9D;
+}
+/* -------------------------------------- Header -------------------------------------------------------- */
 .preview .container{
-    background-image: url(assets/1_1.jpg);
-    
-    /* background-image: url(assets/shade.png); opacity 70% 
-    #1D2F30  */
+    background-image: linear-gradient(rgba(29, 47, 48, 0.7), rgba(29, 47, 48, 0.7)), url(assets/1_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -61,8 +70,9 @@ h1{
     justify-content: space-between;
     align-items: center;
 }
+/* -------------------------------------- Section1 -------------------------------------------------------- */
 .collection-text{
-    font-family: "Open Sans", sans-serif;
+    
     line-height: 150%;
     max-width: 635px;
     background: none;
@@ -73,14 +83,57 @@ h1{
     color: #BAE249;
     background: none;
 }
+/* -------------------------------------- Section2 -------------------------------------------------------- */
+.dark-button{
+
+    background-color: rgba(29, 47, 48, 1);
+    color: #BAE249;
+    border-color: #BAE249;
+    border-width: 1px;
+
+}  
+.card-text{
+    max-width: 223px;
+    color: #899D9D;
+}
+
+/* -------------------------------------- Section3 -------------------------------------------------------- */
+.acid-green{
+    background-image: url(assets/Rectangle69.jpg);
+    max-width: 255px;
+}
+.acid-green h3{
+    color: #1D2F30;
+}
+.acid-green p{
+    color: #506829
+}
+.read-more{
+    color: #0B1919;
+    font-weight: bold;
+}
 
 
-
-
-
-
-
+/* --------------------------------------Section4-------------------------------------------------------- */
+.green-button{
+    color: #0B1919;
+    background-color: #BAE249;
+}
 .project-help{
-    background-image: url(assets/1_1.jpg);
-    max-width: 1920px;
+    max-width: 825px;
+    max-height: 72px;
+}
+.login-input{
+    padding: 8px 0 8px 0;
+    background-color: white;
+    width: 350px;
+    /* должно быть 45 */
+    height: 30px;
+}
+
+/* -------------------------------------- Footer -------------------------------------------------------- */
+.links{
+padding-right: 30px;
+display: flex;
+justify-content:center;
 }
