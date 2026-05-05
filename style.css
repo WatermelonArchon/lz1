@@ -1,10 +1,11 @@
 *{
-    background-color: rgba(29, 47, 48, 1);
     font-family: "Cormorant", serif;
+}
+body{
+    background-color: rgba(29, 47, 48, 1);
 }
 p{
     font-family: "Open Sans", sans-serif;
-    background: none;
     color: white; 
     font-size: 16px;
     line-height: 150%;
@@ -16,7 +17,6 @@ button{
 
 }
 h3{
-    background: none;
     color: white;
     font-size: 24px;
     line-height: 100%;
@@ -32,9 +32,6 @@ h2{
     max-width: 1920px;
     margin: 0 auto;
 }
-img{
-    background: none;
-}
 /*--------------------------------------Header --------------------------------------------------------*/
 header{
     background-image: url(assets/Rectangle7.png);
@@ -49,7 +46,6 @@ h1{
     max-width: 688px;
     color: white;
     border: black 1px;
-    background: none;
     font-size: 60px;
 
 }
@@ -75,13 +71,11 @@ h1{
     
     line-height: 150%;
     max-width: 635px;
-    background: none;
 }
 
 .explore{
     font-weight: bold;
     color: #BAE249;
-    background: none;
 }
 /* -------------------------------------- Section2 -------------------------------------------------------- */
 .dark-button{
@@ -99,7 +93,9 @@ h1{
 
 /* -------------------------------------- Section3 -------------------------------------------------------- */
 .acid-green{
-    background-image: url(assets/Rectangle69.jpg);
+    background-image: url(assets/Rectangle69.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     max-width: 255px;
 }
 .acid-green h3{
@@ -130,10 +126,22 @@ h1{
     /* должно быть 45 */
     height: 30px;
 }
+.bottom{
+background-image: linear-gradient(rgba(29, 47, 48, 0.7), rgba(29, 47, 48, 0.7)), url(assets/1_1_1.jpg);
+background-repeat: no-repeat;
+background-size: cover;    
+}
 
 /* -------------------------------------- Footer -------------------------------------------------------- */
 .links{
+background-image: url(assets/Rectangle669.jpg);
+height: 60px;
+background-repeat: no-repeat;
+background-size: cover;    
 padding-right: 30px;
 display: flex;
 justify-content:center;
+}
+.copyright{
+    text-align: center;
 }
