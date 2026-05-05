@@ -29,10 +29,25 @@ h2{
 }
 
 .container{
-    max-width: 1920px;
+    width: 1920px;
     margin: 0 auto;
 }
 /*--------------------------------------Header --------------------------------------------------------*/
+.header-img{
+    padding:20px 457px 20px 61px ;
+}
+.pictures{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.search-img{
+padding-right:0;
+padding-left: 296px;   
+}
+.login-img{
+    padding-right:353px;
+    padding-left: 64px;
+}
 header{
     background-image: url(assets/Rectangle7.png);
     background-repeat: no-repeat;
@@ -49,7 +64,10 @@ h1{
     font-size: 60px;
 
 }
-
+/* .header-links{
+display: flex;
+justify-content:space-between;
+} */
 /* --------------------------------------Main -------------------------------------------------------- */
 .number{
     font-family: "Cormorant", serif;
